@@ -17,11 +17,11 @@ $(document).ready(function() {
         $(`<img src="${novaImagemURL}" />`).appendTo(novoItem)
         $(`
             <div class="overlay-imagem-link">
-                <a href="${novaImagemURL}" target="_blank" tittle="Ver imagem em tamanho real>
-                Ver imagem em tamanho real
+                <a href="${novaImagemURL}" target="_blank" title="Ver imagem em tamanho real">
+                    Ver imagem em tamanho real
                 </a>
             </div>
-        `).appendTo(novoItem)
+        `).appendTo(novoItem);
         $(novoItem).appendTo('ul')
         $(novoItem).fadeIn(1000)
         $('#endereco-url').val('')
